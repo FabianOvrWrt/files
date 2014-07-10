@@ -1,51 +1,36 @@
 {
-	"name": "Files",
-	"description": "App to manage, copy, move, delete, share and rename files and folders in the SDCard. It also allows you to view PDF documents, play multimedia files, create and edit plain text documents. Fork of elfoxero's file manager with latest building blocks and Faenza Icons.",
-	"launch_path": "/index.html",
-	"icons": {
-		"256": "/images/icon-256.png",
-		"128": "/images/icon-128.png",
-		"90": "/images/icon-90.png",
-		"64": "/images/icon-64.png",
-		"60": "/images/icon-60.png",
-		"32": "/images/icon-32.png"
-	},
-	"version": "0.3",
-	"developer": {
-		"name": "FabianOvrWrt",
-		"url": "https://github.com/fabianovrwrt"
-	},
-	"default_locale": "en",
-	"permissions": {
-		"device-storage:sdcard": {
-			"description" : "To access files from the SDCard",
-			"access": "readwrite"
-		}
-	},
-	"activities": {
-		"open": {
-			"filters": {
-				"type": ["text/plain", "text/javascript", "application/x-javascript", "text/xml", "text/css", "text/html", "application/x-web-app-manifest+json"]
-			},
-			"disposition": "inline",
-			"returnValue": true,
-			"href": "/elements/text.html"
-		},
-		"pick-folder": {
-			"disposition": "inline",
-			"returnValue": true,
-			"href": "/elements/folder.html"
-		}
-	},
-	"locales": {
-		"es": {
-			"name": "Archivos",
-			"description": "Aplicación para gestionar los archivos y carpetas de la tarjeta SD. Copiar, mover, eliminar, compartir y cambiar de nombre a los archivos. También permite ver los documentos PDF, reproducir archivos multimedia, crear y editar documentos de texto plano. Fork de File Manager por elfoxero con la última versión de Building Block e iconos Faenza."
-		},
-		"pt": {
-			"name": "Arquivos",
-			"description": "Aplicação para gerenciar arquivos e pastas do SDCard. Copiar, mover, excluir, compartilhar e renomear arquivos. Também é possível visualizar documentos em PDF, reproduzir arquivos multimídia, criar e editar documentos de texto simples. Usa a interface Building Blocks (http://buildingfirefoxos.com/) e os ícones FileTypeIcons (http://iconbug.com/)."
-		}
-	},
-	"type": "privileged"
+  "name": "Files",
+  "description": "App to manage, copy, move, delete, share and rename files and folders in the SDCard. It also allows you to view PDF documents, play multimedia files, create and edit plain text documents. Fork of elfoxero's file manager with latest building blocks and Faenza Icons.",
+  "launch_path": "/index.html",
+  "icons": {
+    "32": "/images/icon-32.png",
+    "60": "/images/icon-60.png",
+    "64": "/images/icon-64.png",
+    "90": "/images/icon-90.png",
+    "128": "/images/icon-128.png",
+    "256": "/images/icon-256.png"
+  },
+  "version": "0.3",
+  "developer": {
+    "name": "FabianOvrWrt",
+    "url": "https://github.com/fabianovrwrt"
+  },
+  "default_locale": "en",
+  "permissions": {
+    "device-storage:sdcard": {
+      "description": "To access files from the SDCard",
+      "access": "readwrite"
+    }
+  },
+  "locales": {
+    "es": {
+      "name": "Archivos",
+      "description": "Aplicación para gestionar los archivos y carpetas de la tarjeta SD. Copiar, mover, eliminar, compartir y cambiar de nombre a los archivos. También permite ver los documentos PDF, reproducir archivos multimedia, crear y editar documentos de texto plano. Fork de File Manager por elfoxero con la última versión de Building Block e iconos Faenza."
+    },
+    "pt": {
+      "name": "Arquivos",
+      "description": "Aplicação para gerenciar arquivos e pastas do SDCard. Copiar, mover, excluir, compartilhar e renomear arquivos. Também é possível visualizar documentos em PDF, reproduzir arquivos multimídia, criar e editar documentos de texto simples. Usa a interface Building Blocks (http://buildingfirefoxos.com/) e os ícones FileTypeIcons (http://iconbug.com/)."
+    }
+  },
+  "type": "privileged"
 }
