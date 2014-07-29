@@ -72,21 +72,21 @@ var MIME = [
 	{
 		'mime': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 		'pattern': '.*officedocument\.wordprocessingml.*',
-		'extensions': ['doc', 'docx'],
+		'extensions': ['doc', 'docx', 'odt'],
 		'class': 'word',
 		'actions': ''
 	},
 	{
 		'mime': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
 		'pattern': '.*officedocument\.spreadsheetml.*',
-		'extensions': ['xls', 'xlsx'],
+		'extensions': ['xls', 'xlsx', 'ods'],
 		'class': 'excel',
 		'actions': ''
 	},
 	{
 		'mime': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
 		'pattern': '.*officedocumentº.presentationml.*',
-		'extensions': ['ppt', 'pptx'],
+		'extensions': ['ppt', 'pptx', 'odp'],
 		'class': 'powerpoint',
 		'actions': ''
 	}
