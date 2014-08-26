@@ -321,6 +321,25 @@
 	
 	function openFile(mimeType, curFile, curDir) {
 		switch (mimeType) {
+			case 'application/pdf':
+				console.log(curFile);
+				var activity = new MozActivity({
+					name: 'view',
+					data: {
+						type: 'application/pdf',
+						blob: curFile.blob
+					}
+				});
+				
+				activity.onerror = function(e) {
+					console.log(activity.error, e);
+				};
+				
+				activity.onsuccess = function(e) {
+					//
+				};
+				break;
+
 			case 'video/*':
 				var activity = new MozActivity({
 					name: 'view',
