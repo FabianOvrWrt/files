@@ -475,6 +475,6 @@
 		};
 	})();
 	
-	window.config.app = 'Files';
+	window.config.app = 'sdcard';
 	init();
 }(window, document);
