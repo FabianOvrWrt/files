@@ -1,15 +1,14 @@
-var MIME = [
-	{
+var MIME = [	{
 		'mime': 'image/*',
 		'pattern': '^image\/.+',
-		'extensions': ['jpg', 'jpeg', 'png', 'gif'],
+		'extensions': ['jpg', 'jpeg', 'png', 'gif', 'bmp'],
 		'class': 'image',
 		'actions': 'O'
 	},
 	{
 		'mime': 'audio/*',
 		'pattern': '^audio\/.+',
-		'extensions': ['mp3', 'ogg'],
+		'extensions': ['mp3', 'ogg', 'opus', 'flac', 'alac', 'wav'],
 		'class': 'audio',
 		'actions': 'O'
 	},
@@ -85,7 +84,7 @@ var MIME = [
 	},
 	{
 		'mime': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
-		'pattern': '.*officedocumentº.presentationml.*',
+		'pattern': '.*officedocumentÂº.presentationml.*',
 		'extensions': ['ppt', 'pptx', 'odp'],
 		'class': 'powerpoint',
 		'actions': ''
