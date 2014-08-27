@@ -7,7 +7,7 @@ section[role="region"] > header:first-child {
   position: relative;
   display: block;
   z-index: 10;
-  padding: 0;
+  padding: ;
   height: 5rem;
   border: none;
 }

@@ -1,4 +1,4 @@
-Files
+Files 0.4
 ==============
 
 Fork of elfoxero's file manager (https://github.com/elfoxero/file-manager). 
