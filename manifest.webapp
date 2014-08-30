@@ -1,0 +1,66 @@
+{
+  "name": "Files",
+  "description": "App to manage, copy, move, delete, share and rename files and folders in the SDCard. It also allows you to view PDF documents, play multimedia files, create and edit plain text documents. Fork of elfoxero's file manager with latest building blocks and Nitrux Flattr Icons.",
+  "launch_path": "/index.html",
+  "icons": {
+    "32": "/images/icon-32.png",
+    "60": "/images/icon-60.png",
+    "84": "/images/icon-84.png",
+    "128": "/images/icon-128.png",
+    "284": "/images/icon-284.png"
+  },
+  "version": "0.4.1",
+  "developer": {
+    "name": "FabianOvrWrt",
+    "url": "https://github.com/fabianovrwrt"
+  },
+  "default_locale": "en",
+  "permissions": {
+    "device-storage:sdcard": {
+      "description": "To access files from the SDCard",
+      "access": "readwrite"
+    }
+  },
+  "activities": {
+    "open": {
+      "filters": {
+        "type": [
+          "text/plain",
+          "text/javascript",
+          "application/x-javascript",
+          "text/xml",
+          "text/css",
+          "text/html",
+          "application/x-web-app-manifest+json"
+        ]
+      },
+      "disposition": "inline",
+      "returnValue": true,
+      "href": "/elements/text.html"
+    },
+    "pick-folder": {
+      "disposition": "inline",
+      "returnValue": true,
+      "href": "/elements/folder.html"
+    }
+  },
+  "locales": {
+    "es": {
+      "name": "Archivos",
+      "description": "Aplicación para gestionar los archivos y carpetas de la tarjeta SD. Copiar, mover, eliminar, compartir y cambiar de nombre a los archivos. También permite ver los documentos PDF, reproducir archivos multimedia, crear y editar documentos de texto plano. Fork de File Manager por elfoxero con la última versión de Building Blocks e iconos Nitrux Flattr."
+    },
+    "fr": {
+      "name": "Fichiers",
+      "description": "Application pour gérer, copier, déplacer, supprimer, partager et renommer les fichiers et les dossiers sur la carte mémoire SD. Cette application permet aussi de visionner des documents PDF, de jouer des fichiers multimédias ainsi que de créer et d'éditer des fichier de texte brute. Fork de File Manager par elfoxero avec la dernière version de Building Bloks et Nitrux Flattr Icons."
+    },
+    "pt": {
+      "name": "Arquivos",
+      "description": "Aplicação para gerenciar arquivos e pastas do SDCard. Copiar, mover, excluir, compartilhar e renomear arquivos. Também é possível visualizar documentos em PDF, reproduzir arquivos multimídia, criar e editar documentos de texto simples. Fork do File Manager por elfoxero com a mais recente Building Blocks e ícones Nitrux Flattr."
+    },
+    "el": {
+      "name": "Αρχεία",
+      "description": "Εφαρμογή για την διαχείριση, αντιγραφή, μετακίνηση, διαγραφή, κοινοποίηση και μετονομασία αρχείων και φακέλων στην SD κάρτα. Επιπλέον διαβάστε αρχεία PDF, ανοίξτε αρχεία πολυμέσων,δημιουργήστε και επεξεργαστείτε αρχεία κειμένου. Fork του elfoxero's διαχειριστή αρχείων με τα τελευταία building blocks και τα Nitrux Flattr εικονίδια."
+    }
+  },
+  "type": "privileged"
+}
