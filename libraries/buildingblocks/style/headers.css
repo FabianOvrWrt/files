@@ -51,7 +51,7 @@ section[role="region"] > header:first-child button {
   display: block;
   overflow: hidden;
   float: left;
-  min-width: 5rem;
+  min-width: 1rem;
   width: auto;
   height: 5rem;
   border: none;
