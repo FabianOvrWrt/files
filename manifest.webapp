@@ -9,19 +9,27 @@
     "128": "/images/icon-128.png",
     "284": "/images/icon-284.png"
   },
-  "version": "0.4.1c",
+  "version": "0.4.2",
   "developer": {
     "name": "FabianOvrWrt",
     "url": "https://github.com/fabianovrwrt"
   },
   "default_locale": "en",
   "permissions": {
+	"desktop-notification": {
+	"description": "To show notifications to the user"
+	},
     "device-storage:sdcard": {
       "description": "To access files from the SDCard",
       "access": "readwrite"
     }
   },
   "activities": {
+	"pick": {
+	"disposition": "inline",
+	"returnValue": true,
+	"href": "/pick.html"
+	},
     "open": {
       "filters": {
         "type": [

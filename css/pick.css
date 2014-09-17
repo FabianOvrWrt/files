@@ -1,0 +1,230 @@
+@import url(progress_activity.css);
+@import url(confirm.css);
+@import url(switches.css);
+
+* { font-family: 'FiraSans'; }
+
+@media screen and (orientation:landscape) {
+	html{
+		font-size: 5vh!important;
+	}
+}
+@media only screen and (min-resolution: 90dpi) and (min-width: 530px){
+	html{
+		font-size: 150%!important;
+	}
+	header .title.centered{position:absolute;left:45px!important;right:32px;text-align:center;display:inline-block}
+	li, small {
+		font-size: 100%!important;
+	}
+	button{
+		height: 3rem;
+		line-height: 1.5rem;
+	}
+}
+@media only screen and (min-resolution: 90dpi) and (max-width: 530px){
+	li, small{
+		font-size: 96%!important;
+	}
+	header .title.centered{position:absolute;left:32px!important;right:32px;text-align:center;display:inline-block}
+	button{
+		height: 2.4rem;
+		line-height: 1rem;
+	}
+}
+body *{
+	font-weight: normal;
+	letter-spacing: 0.01em;
+}
+a{
+	color: inherit;
+}
+
+button{
+	background-color: #fff!important;
+}
+button::-moz-focus-inner{
+	border: 0;
+}
+body > section > header{
+	height: 3rem;
+	box-shadow: none;
+	background: #F4F4F4;
+	box-shadow: none;
+}
+body > section > header > span.title{
+	text-align: center!important;
+    font-weight: 300;
+	margin-right: 0.6rem;
+	color: #858585;
+    font-style: italic;
+	line-height: 1.3rem;
+	top: .8rem;
+}
+body > section > header > button{
+    text-align: center!important;
+    font-size: 0.84rem;
+	width: 0rem;
+	padding-left: 2rem;
+	color: #5F5F5F!important;
+	background: #f4f4f4!important;
+	line-height: 1.74rem!important;
+
+    box-shadow: none;
+}
+body > section > header > nav a{
+     text-align: center!important;
+     font-size: 1.1rem;
+	height: 3rem!important;
+	width: 3rem;
+	color: #5F5F5F!important;
+	text-shadow: none!important;
+	line-height: 2.9rem!important;
+}
+body > section > header > nav a img{
+	width: 1.4rem;
+}
+body > section > header > nav a.left{
+	width: 1.8rem!important;
+	font-weight: lighter;
+	padding: 0 0.9rem!important;
+	background-color: rgba(0, 0, 0, 0);
+}
+body > section > header > nav a.left span{
+	font-size: 1.1rem!important;
+	line-height: 3rem!important;
+}
+#main-article{
+	top: 3rem!important;
+}
+
+span.icon.brand.twitter, span.icon.refresh {
+	font-size: 100%!important;
+}
+
+li, small {
+	line-height: 1em!important;
+}
+
+.button.anchor {
+	width: 70%!important;
+}
+
+h1 {
+	font-size: 50%!important;
+}
+
+#progress {
+	top: 0!important;
+}
+
+#item-delete-dialog {
+  display:none;
+}
+
+.item-list-scrollouter {
+  height: calc(100% - 5rem);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+ 
+.item-list-scrollouter label {
+  display: none;
+}
+ 
+.item-list-scrollouter-edit {
+  height: calc(100% - 11.5rem);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+ 
+.item-list-scrollouter-edit label {
+  display: inline-block;
+}
+
+#main-wrapper, #item-list-panel {
+  height: 100%;
+}
+
+#li label {
+	font-size: 10px!important;
+}
+
+#path_root {
+	background: #E7E7E7!important;
+	border-bottom: 0px!important;
+}
+
+label:not([for]) input[type="checkbox"] + span.folder {
+	background: url(images/folder.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.doc {
+	background: url(images/doc.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.xls {
+	background: url(images/xls.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.ppt {
+	background: url(images/ppt.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.psd {
+	background: url(images/psd.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.ai {
+	background: url(images/ai.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.pdf {
+	background: url(images/pdf.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.html {
+	background: url(images/html.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.xml {
+	background: url(images/xml.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.txt {
+	background: url(images/txt.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.mp3 {
+	background: url(images/mp3.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.ogg {
+	background: url(images/ogg.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.jpg {
+	background: url(images/jpg.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.png {
+	background: url(images/png.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.zip {
+	background: url(images/zip.png) no-repeat center;
+}
+
+label:not([for]) input[type="checkbox"] + span.unk {
+	background: url(images/unk.png) no-repeat center;
+}
+
+label span.home {
+	height: 20px!important;
+}
+
+span.home {
+	width: 25px;
+	display:block;
+	background: url(images/home.png) no-repeat center;
+}

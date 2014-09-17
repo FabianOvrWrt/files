@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='theme-color' content='#F4F4F4'>
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Files</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/pick.css">
+    <link rel="stylesheet" href="lungo/lungo.css">
+    <link rel="stylesheet" href="lungo/lungo.icon.css">
+    <link rel="stylesheet" href="lungo/lungo.icon.brand.css">
+    <link rel="stylesheet" href="lungo/theme.lungo.css">
+  </head>
+
+  <body class="app">
+      <section id="main" data-transition="fade">
+        <header data-title="Files">
+          <nav>
+            <a href="#" id="backBtn" data-icon="left" class="left"></a>
+            <a href="#" id="refreshBtn" data-icon="refresh" class="right"></a>
+          </nav>
+		<button href="#" id="close">
+				<span data-icon="close" class="left"</span>
+			</button>
+        </header>
+        <article id="main-article" data-type="list" class="active dark list indented scroll">
+          <form>
+          <select id="deviceStoragesList" class="select" style="display: none;"></select>
+          <ul><li id="path_root"></li></ul>
+          <ul class="lista" id="item-list"></ul>
+          </form>
+        </article>
+      </section>
+
+    <script type="text/javascript" src="js/engine.js"></script>
+    <script type="text/javascript" src="quojs/quo.js"></script>
+    <script type="text/javascript" src="lungo/lungo.js"></script>
+  </body>
+</html>
