@@ -100,6 +100,7 @@ section[role="region"] > header:first-child > a .icon.action-icon:before {
 .menu:before { background-position:  -0px -1110px; }
 .move:before { background-position:  -0px -1140px; }
 .new:before { background-position:  -0px -1170px; }
+.minus:before { background: url(minus.png) no-repeat !important; }
 .paste:before { background-position:  -0px -1200px; }
 .search:before { background-position:  -0px -1230px; }
 .selectall:before { background-position:  -0px -1260px; }
