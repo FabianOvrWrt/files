@@ -46,12 +46,22 @@
 				<li><a href="#" id="rename-folder" data-l10n-id="rename">Rename</a></li>
 				<li><a href="#" id="delete-folder" data-l10n-id="delete">Delete</a></li>
 			</ul>
+			
+			<!-- SEARCH
+			<h2 data-l10n-id="tool">Tool</h2>
+			<ul>
+				<li><a href="#" id="search" data-l10n-id="search">Advanced search (soon!)</a></li>
+			</ul>
+			-->
 		</nav>
 	</section>
 	
 	<section role="region" id="drawer">
 		<header class="fixed">
 			<menu type="toolbar">
+				<!-- Search button (do nothing yet)
+				<a href="#" id="search"><span class="icon action-icon search">search</span></a>-->
+				<a href="#"><span><input id="listsearchinput" size="5" /></span></a>
 				<a href="#" id="refresh"><span class="icon action-icon email-sync">refresh</span></a>
 				<a data-action="hide" href="#"><span class="icon icon-menu">hide sidebar</span></a>
 				<a data-action="show" href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
@@ -156,5 +166,8 @@
 	<script type="text/javascript" defer src="js/files.js"></script>
 	<script type="text/javascript" defer src="js/storage.js"></script>
 	<script type="text/javascript" defer src="js/app.js"></script>
+	<script type="text/javascript" defer src="js/search.js"></script>
+	<script type="text/javascript" defer src="libraries/jquery.js"></script>
+	<script type="text/javascript" defer src="libraries/jquery.searcher.js"></script>
 </body>
 </html>
