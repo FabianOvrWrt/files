@@ -53,8 +53,12 @@ header.fixed *[disabled="disabled"] {
 	transform: translateX(-80%) !important;
 }
 
+#search[data-state="executing"] {
+  pointer-events: none;
+}
+
 #refresh[data-state="executing"] {
-  animation: 0.9s msg-rotate infinite steps(30);
+  animation: 0.9s  msg-rotate infinite steps(30);
   pointer-events: none;
 }
 
