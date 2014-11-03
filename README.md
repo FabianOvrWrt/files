@@ -7,7 +7,7 @@ Using lastest Building Blocks (http://buildingfirefoxos.com/)
 
 Now using Nitrux Flattr Icons (https://github.com/NitruxSA/flattr-icons).
 
-JQuery Searcher PLugin by lloiser (http://lloiser.github.io/jquery-searcher)
+JQuery Searcher Plugin by lloiser (http://lloiser.github.io/jquery-searcher)
 
 App to manage, copy, move, delete, share and rename files and folders in the SDCard.
 
