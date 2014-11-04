@@ -61,7 +61,7 @@
 			<menu type="toolbar">
 				<!-- Search button (do nothing yet)
 				<a href="#" id="search"><span class="icon action-icon search">search</span></a>-->
-				<a href="#"><span><input id="listsearchinput" size="5" /></span></a>
+				<a href="#"><span><input id="searchinput" size="5" /></span></a>
 				<a href="#" id="refresh"><span class="icon action-icon email-sync">refresh</span></a>
 				<a data-action="hide" href="#"><span class="icon icon-menu">hide sidebar</span></a>
 				<a data-action="show" href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
@@ -132,7 +132,7 @@
   
 	<section id="details" data-position="back" class="fullscreen">
 		<form role="dialog" data-type="confirm">
-			<section>
+			<section id="data">
 				<h1 id="file-name"></h1>
 				<p>
 					<strong><span data-l10n-id="size">Size</span></strong><span id="file-size"></span><br />
@@ -156,17 +156,17 @@
 			<div id="loading-message"></div>
 		</div>
 	</section>
-	<script type="text/javascript" defer src="libraries/l10n.js"></script>
-	<script type="text/javascript" defer src="libraries/date.format.js"></script>
-	<script type="text/javascript" defer src="libraries/buildingblocks/js/status.js"></script>
-	<script type="text/javascript" defer src="js/config.js"></script>
-	<script type="text/javascript" defer src="js/mime.js"></script>
-	<script type="text/javascript" defer src="js/util.js"></script>
-	<script type="text/javascript" defer src="js/files.js"></script>
-	<script type="text/javascript" defer src="js/storage.js"></script>
-	<script type="text/javascript" defer src="js/app.js"></script>
-	<script type="text/javascript" defer src="js/search.js"></script>
-	<script type="text/javascript" defer src="libraries/jquery.js"></script>
-	<script type="text/javascript" defer src="libraries/jquery.searcher.js"></script>
+	<script src="libraries/l10n.js"></script>
+	<script src="libraries/date.format.js"></script>
+	<script src="libraries/buildingblocks/js/status.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/mime.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/files.js"></script>
+	<script src="js/storage.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/search.js"></script>
+	<script src="libraries/jquery.js"></script>
+	<script src="libraries/jquery.searcher.js"></script>
 </body>
 </html>
