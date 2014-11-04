@@ -1,5 +1,5 @@
-$("#data").searcher({
-    itemSelector: "h1","span",
-    textSelector:  "",
+$("#details").searcher({
+    itemSelector: ".data",
+    textSelector:  "#file-name",
     inputSelector: "#searchinput"
 });
